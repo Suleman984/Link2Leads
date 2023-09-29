@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.post('/download-csv', (req, res) => {
-    const leads = req.body.leads; // Assuming you send the leads array in the request body
+    const leads = req.body.leads; 
 
     const csvHeader = [
         { id: 'name', title: 'Name' },
@@ -35,7 +35,7 @@ app.post('/download-csv', (req, res) => {
         });
 });
 
-app.use(express.static('public')); // Serve static files from the 'public' directory
+app.use(express.static('public')); 
 
 app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
