@@ -1,7 +1,6 @@
 Follow these steps to enable extension in your browser.
 
 1. **Download the Code from Git Repo**:
-   - Visit the GitHub repository where your Chrome extension code is hosted.
    - Click the "Code" button, and then select "Download ZIP" to download the code as a ZIP file.
    - Extract the contents of the ZIP file to a folder on your computer.
 
